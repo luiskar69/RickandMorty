@@ -1,0 +1,65 @@
+@charset "utf-8";
+.tarjeta{
+    display:flex;
+    flex-direction:column;
+    justify-content:space-between;
+    width:420px;
+    border: 1px solid rgba(6, 196, 107, 0.753);
+    box-shadow: 2px 2px 8px 4px #d3d3d3d1;
+    border-radius:15px;
+    color: white;
+    font-weight: bold;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+}
+.titulo{
+    font-size: 24px;
+    padding: 10px 10px 0 10px;
+    color: white;
+    font-weight: bold;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.cuerpo{
+    padding: 10px;
+    }
+.pie{
+background: #6699ff;
+    border-radius:0 0 15px 15px;
+    padding: 10px;
+    text-align:center;
+
+}
+.pie a{
+    text-decoration: none;
+    color: white;
+    }
+.pie a:after {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 1;
+    content: ""
+    }
+    .wrapper {
+        display: flex;
+        grid-template-columns: repeat(3, 1fr);
+        padding: 10px;
+        gap: 50px;
+        flex-wrap: wrap;
+      }
+      .epi {
+        text-align: left;
+        padding: 5px;
+       
+        }
+        .title{
+            text-align: center;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            font-weight: bold;
+            color: white;
+        }
+        body{
+            background-image: linear-gradient(90deg, #2855a8 0%, #040494 35%, #00d4ff 100%);
+        }
